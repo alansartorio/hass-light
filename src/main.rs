@@ -28,7 +28,7 @@ lazy_static! {
         var("HASS_TOKEN").expect("please set up the HASS_TOKEN env variable before running this");
 }
 
-static OUTPUT_SOCKET_PATH: &str = "/tmp/hass-fast-output.sock";
+static OUTPUT_SOCKET_PATH: &str = "/tmp/hass-light-eww-output.sock";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
